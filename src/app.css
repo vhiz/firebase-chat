@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply p-0 m-0 box-border;
+}
+
+body {
+  @apply bg-[url('/bg.jpg')] h-screen bg-cover flex items-center justify-center text-[0.9rem];
+}
