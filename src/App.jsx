@@ -43,7 +43,7 @@ export default function App() {
       ) : (
         <>
           <Mobile />
-          <div className="w-full flex carousel">
+          <div className="w-full flex carousel h-full">
             <List />
             {chatId ? (
               <>
